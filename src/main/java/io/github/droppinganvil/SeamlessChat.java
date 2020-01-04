@@ -9,7 +9,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class SeamlessChat extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
-        saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
     }
     @EventHandler
