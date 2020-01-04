@@ -10,3 +10,5 @@ seamlesschat.dark_aqua
 seamlesschat.black
 seamlesschat.dark_green
 seamlesschat.white
+## Support
+If you have any question you can find me in my discord server http://Discord.SeamlessFactions.com
