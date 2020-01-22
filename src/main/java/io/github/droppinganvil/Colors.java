@@ -16,7 +16,13 @@ public enum Colors {
     WHITE("&f"),
     LIGHT_GREY("&7"),
     DARK_GREY("&8"),
-    BLACK("&0");
+    BLACK("&0"),
+    BOLD("&l"),
+    ITALIC("&o"),
+    MAGIC("&k"),
+    STRIKETHROUGH("&m"),
+    UNDERLINE("&n"),
+    RESET("&r");
 
     Colors(String s) {
     }

@@ -13,6 +13,8 @@ public class SeamlessChat extends JavaPlugin implements Listener {
     }
     @EventHandler
     public void onChat(AsyncPlayerChatEvent e) {
+        //Block bypass
+        if (e.getMessage().contains("§")) e.setMessage(e.getMessage().replace("§", "&"));
         if (e.getMessage().contains("&")) {
             String temp = e.getMessage();
             for (Colors color : Colors.values()) {
